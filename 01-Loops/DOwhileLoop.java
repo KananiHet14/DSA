@@ -1,15 +1,15 @@
-import java.util.*;
+// import java.util.*;
 
-public class DOwhileLoop {
+// public class DOwhileLoop {
 
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
 
-        int i=0;
+//         int i=0;
 
-        do {
-            System.out.println(i);
-            i = i+1;
-        } while (i < 11);
+//         do {
+//             System.out.println(i);
+//             i = i+1;
+//         } while (i < 11);
 
-    }
-}
+//     }
+// }
