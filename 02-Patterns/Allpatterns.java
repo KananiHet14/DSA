@@ -75,12 +75,66 @@
 
             // int n=4;
             // for(int i=1; i<=n; i++) {
-         //     for(int j=1; j<=n-i; j++) {
-         //         System.out.print(" ");
+          //     for(int j=1; j<=n-i; j++) {
+          //         System.out.print(" ");
          //     }
         //      for(int j=1; j<=i; j++) {
-        //          System.out.print("*");
-        // }
+       //          System.out.print("*");
+      // }
+     //     System.out.println();
+    // }
+
+
+         // 06 NUMBER HALF PYRAMID
+
+         // int n=5;
+         // for(int i=1; i<=n; i++) {
+         //     for(int j=1; j<=i; j++) {
+         //         System.out.print(j + " ");
+         //     }
+         //     System.out.println();
+         // }
+
+
+
+         // 07 NUMBER INVERTED HALFT PYRAMID
+
+         // int n=5;
+         // for(int i=1; i<=n; i--) {
+         //     for(int j=1; j<=i; j++) {
+         //         int sum = i+j;
+         //         if(sum % 2 = 0) {
+         //         System.out.prin("1");
+         //       } else {
+         //         System.out.prin("0");
+         // }
+         //     }
+         //     System.out.println();
+         // }
+
+
+
+
+         // 08 FLOYD'S TRIANGLE
+         // int n=5;
+         //  int number=1;
+         // for(int i=1; i<=n; i++) {
+         //     for(int j=1; j<=i; j++) {
+         //         System.out.print(number + " ");
+         //         number++;
+         //     }
+         //     System.out.println();
+         // }
+
+
+
+         // 08 0-1 TRIANGLE
+         // int n=5;
+         // for(int i=1; i<=n; i--) {
+         //     for(int j=1; j<=i; j++) {
+         //         System.out.print(number + " ");
+         //         number++;
+         //     }
          //     System.out.println();
          // }
             
