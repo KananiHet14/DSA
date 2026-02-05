@@ -14,7 +14,7 @@ public class SumFunction {
         int b = sc.nextInt();
 
         int sum = SumFunctions(a, b);
-        System.out.println(sum);
+        System.out.println("Sum of 2 number is : " + sum);
 
     }
 }
