@@ -6,6 +6,7 @@ public class FactorialFunction {
         // condition
         if(n < 0) {
             System.out.println("Invalid number");
+            return;
         }
         
         // loop
