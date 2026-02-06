@@ -1,29 +1,29 @@
-import java.util.*;
+// import java.util.*;
 
-public class FactorialFunction {
+// public class FactorialFunction {
 
-    public static void PrintFactorial(int n) {
-        // condition
-        if(n < 0) {
-            System.out.println("Invalid number");
-            return;
-        }
+//     public static void PrintFactorial(int n) {
+//         // condition
+//         if(n < 0) {
+//             System.out.println("Invalid number");
+//             return;
+//         }
         
-        // loop
-        int factorial = 1;
-        for(int i=n; i>=1; i--) {
-            factorial = factorial * i;
-        }
-        System.out.println(factorial);
-        return;
-    }
+//         // loop
+//         int factorial = 1;
+//         for(int i=n; i>=1; i--) {
+//             factorial = factorial * i;
+//         }
+//         System.out.println(factorial);
+//         return;
+//     }
 
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
 
-        // inputs
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+//         // inputs
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
 
-        PrintFactorial(n);
-    }
-}
+//         PrintFactorial(n);
+//     }
+// }

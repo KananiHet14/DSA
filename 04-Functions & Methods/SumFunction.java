@@ -1,20 +1,20 @@
-import java.util.*;
+// import java.util.*;
 
-public class SumFunction {
+// public class SumFunction {
 
-    public static int SumFunctions(int a, int b) {
-        int sum = a+b;
-        return sum;
-    }
+//     public static int SumFunctions(int a, int b) {
+//         int sum = a+b;
+//         return sum;
+//     }
 
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
 
-        int sum = SumFunctions(a, b);
-        System.out.println("Sum of 2 number is : " + sum);
+//         int sum = SumFunctions(a, b);
+//         System.out.println("Sum of 2 number is : " + sum);
 
-    }
-}
+//     }
+// }
