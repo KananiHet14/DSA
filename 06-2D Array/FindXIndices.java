@@ -1,28 +1,28 @@
-import java.util.*;
+// import java.util.*;
 
-public class FindXIndices {
+// public class FindXIndices {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int rows = sc.nextInt();
-        int cols = sc.nextInt();
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int rows = sc.nextInt();
+//         int cols = sc.nextInt();
 
-        int[][] numbers = new int[rows][cols];
+//         int[][] numbers = new int[rows][cols];
 
-        for(int i=0; i<rows; i++) {
-            for(int j=0; i<cols; j++){
-                numbers[i][j] = sc.nextInt();
-            }
-        }
+//         for(int i=0; i<rows; i++) {
+//             for(int j=0; i<cols; j++){
+//                 numbers[i][j] = sc.nextInt();
+//             }
+//         }
 
-        int x = sc.nextInt();
-        for(int i=0; i<rows; i++) {
-            for(int j=0; i<cols; j++){
-                if(numbers[i][j] == x) {
-                    System.out.println("x found at indices (" + i + " , " + j + ")");
-            }
-        }
+//         int x = sc.nextInt();
+//         for(int i=0; i<rows; i++) {
+//             for(int j=0; i<cols; j++){
+//                 if(numbers[i][j] == x) {
+//                     System.out.println("x found at indices (" + i + " , " + j + ")");
+//             }
+//         }
         
-    }
-}
-}
+//     }
+// }
+// }
