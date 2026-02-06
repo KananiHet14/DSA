@@ -12,7 +12,7 @@
 //         sb.setCharAt(0 ,'D');
 //         System.out.println(sb);
 
-//         // inster a new character
+//         // insert a new character
 //         StringBuilder name = new StringBuilder("het");
 //         name.insert(1, 'e');
 //         System.out.println(name);
