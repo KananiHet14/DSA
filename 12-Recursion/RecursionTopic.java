@@ -30,18 +30,35 @@ public class RecursionTopic {
     // }
 
 //    print sum of first n natural numbers
-    public static void PrintSum(int i,int n, int sum) {
-       if(i==n) {
-        sum += i;
-        System.out.println(sum);
-        return;
-       }
+//     public static void PrintSum(int i,int n, int sum) {
+//        if(i==n) {
+//         sum += i;
+//         System.out.println(sum);
+//         return;
+//        }
 
-       sum += i;
-       PrintSum(i+1,n,sum);
+//        sum += i;
+//        PrintSum(i+1,n,sum);
        
-    }
-    public static void main(String[] args) {
-    PrintSum(1, 5, 0);
-}
+//     }
+//     public static void main(String[] args) {
+//     PrintSum(1, 5, 0);
+// }
+
+
+// print factorial number of n
+//  public static int calculateFactorial(int n) {
+//     if(n==0 || n==1) {
+//         return 1;
+//     }
+//     int factorial = calculateFactorial(n-1);
+//     int fact_n = n * factorial;
+//     return fact_n;
+//  }
+
+//  public static void main(String[] args) {
+//     System.out.println(calculateFactorial(5));
+//  }
+
+
 }
